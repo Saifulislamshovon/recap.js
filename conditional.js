@@ -8,3 +8,10 @@ return result;
 }
 
 console.log(doMath(20,15,5));
+
+console.log('--------------------------------------');
+
+
+
+
+
