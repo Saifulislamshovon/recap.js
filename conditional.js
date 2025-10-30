@@ -11,7 +11,23 @@ console.log(doMath(20,15,5));
 
 console.log('--------------------------------------');
 
+function isEven (number){
+    if (number % 2 ===0 ){
+        return true;
+    }
+    else {
+        return false;
+    }
+}
 
+console.log(isEven(49));
+console.log('--------------------------------------');
 
+function mToK (number1){
+    const kilo = number1 * 1.60934 ;
+    return kilo;
+}
+
+console.log(mToK(5));
 
 
