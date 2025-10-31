@@ -29,5 +29,26 @@ function mToK (number1){
 }
 
 console.log(mToK(5));
+console.log('--------------------------------------');
 
+function evenSizedString(str){
+    const size = str.length;
+    console.log( str , size);
+    if (size % 2 ===0 ){
+        console.log('even size');
+        return true;
+        
+    }
+    else {
+        console.log('odd size');
 
+        return false;
+    }
+}
+
+evenSizedString('dhaka');
+//evenSizedString('dhaka akhon faka');
+console.log('--------------------------------------');
+console.log('Milestone 3: CSS frame work');
+
+function 
