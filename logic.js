@@ -93,3 +93,19 @@ function checkDiscount(age, isStudent, hasCoupon) {
 }
 
 console.log("2. Discount:" + checkDiscount(25, true, false));
+
+console.log("-----------------------------------------");
+
+function isTripPossible ( budget, days , weather){
+     if ((budget >=1000 && days>=7) || (weather === 'good')) {
+       return "Let's Go for a trip"
+}  
+    else if (budget<=500){
+        return "Day Trip Possible"
+    }
+    else {
+        return "Need more money or savings for Trip"
+    }
+  }  
+
+    console.log(isTripPossible(200, 2));
